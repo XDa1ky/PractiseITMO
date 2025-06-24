@@ -1,0 +1,6 @@
+video_source: 0          # 0 for webcam or a path/RTSP url
+model_name: yolov5s      # any Ultralytics YOLOv5 model
+classes: [0]             # 0 = person
+conf_threshold: 0.5
+smoothing_alpha: 0.3
+window_name: People Counter
